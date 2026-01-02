@@ -119,7 +119,7 @@ function asideSectionToggleBtn(){
 // download resume start
 document.querySelector('.down-res').addEventListener('click',()=>{
    const link=document.createElement('a');
-   link.href='assets/w_resume.pdf';
+   link.href='assets/aman_gupta_resume1.pdf';
    link.download='aman_resume.pdf';
 
    document.body.appendChild(link);
@@ -128,3 +128,24 @@ document.querySelector('.down-res').addEventListener('click',()=>{
 });
 // download resume end
 
+
+// portfolio == project live run code
+document.querySelector(".foodify").addEventListener("click",()=>{
+  window.open("https://food-delivery-foodify.netlify.app", "_blank");
+});
+
+document.querySelector(".zynkart").addEventListener("click",()=>{
+window.open("https://zynkart.netlify.app", "_blank")
+})
+document.querySelector(".food-web").addEventListener("click",()=>{
+    window.open("https://foodcart-system.netlify.app","_blank")
+})
+
+
+// contact section open git and linkdin by click
+document.querySelector(".linkedin").addEventListener("click",()=>{
+    window.open("https://www.linkedin.com/in/amangupt1/","_blank")
+})
+document.querySelector(".github").addEventListener("click",()=>{
+    window.open("https://github.com/aman-gupt1","_blank")
+})
