@@ -1,7 +1,7 @@
 // typing animation 
 
 var typed =new Typed(".typing",{
-strings:["","Frontend Web Developer","Problem Solver","Responsive Designer"],
+strings:["","Full-stack Web Developer","Problem Solver","Responsive Designer"],
 typeSpeed:100,
 BackSpeed:30,
 loop:true
@@ -119,7 +119,7 @@ function asideSectionToggleBtn(){
 // download resume start
 document.querySelector('.down-res').addEventListener('click',()=>{
    const link=document.createElement('a');
-   link.href='assets/aman_gupta_resume1.pdf';
+   link.href='assets/amangupta_resume.pdf';
    link.download='aman_resume.pdf';
 
    document.body.appendChild(link);
@@ -139,6 +139,9 @@ window.open("https://zynkart.netlify.app", "_blank")
 })
 document.querySelector(".food-web").addEventListener("click",()=>{
     window.open("https://foodcart-system.netlify.app","_blank")
+})
+document.querySelector(".expense").addEventListener("click",()=>{
+    window.open("https://expense-tracker-tan-six-90.vercel.app/signup","_blank")
 })
 
 
