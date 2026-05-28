@@ -80,6 +80,8 @@ https://aman-gupt1.github.io/my-portfolio/
 
 Add project screenshots inside the `images` folder.
 
+![Portfolio Screenshot](images/portfolioview.png)
+
 Example:
 
 ```bash id="jq4q6n"
