@@ -144,6 +144,10 @@ document.querySelector(".expense").addEventListener("click",()=>{
     window.open("https://expense-tracker-tan-six-90.vercel.app/signup","_blank")
 })
 
+document.querySelector(".shopnex").addEventListener("click",()=>{
+   window.open("https://shop-nex-e-commerce-mern.vercel.app/", "_blank") 
+})
+
 
 // contact section open git and linkdin by click
 document.querySelector(".linkedin").addEventListener("click",()=>{
