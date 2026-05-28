@@ -145,6 +145,7 @@ document.querySelector(".expense").addEventListener("click",()=>{
 })
 
 document.querySelector(".shopnex").addEventListener("click",()=>{
+    alert("thid is clickable")
    window.open("https://shop-nex-e-commerce-mern.vercel.app/", "_blank") 
 })
 
