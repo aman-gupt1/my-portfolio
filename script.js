@@ -119,7 +119,7 @@ function asideSectionToggleBtn(){
 // download resume start
 document.querySelector('.down-res').addEventListener('click',()=>{
    const link=document.createElement('a');
-   link.href='assets/amangupta_resume.pdf';
+   link.href='assets/aman_s_resume.pdf';
    link.download='aman_resume.pdf';
 
    document.body.appendChild(link);
